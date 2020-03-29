@@ -1,0 +1,29 @@
+#banner {
+  background-color: #FB8c47;
+  color: #0B2D47;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#banner h1 {
+  padding: 1rem 0 0 0;
+}
+
+#banner p {
+  padding: 0 3rem 1rem 3rem;
+}
+
+@media (min-width: 1200px) {
+  #banner {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  #banner {
+    width: 90%;
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=banner.css.map */

@@ -1,0 +1,8 @@
+{{!-- First we bring in the nav bar --}}
+  {{> nav}}
+
+  {{#if messages.error}}
+  <p>{{this}}</p>
+  {{/if}}
+
+  {{> login/form}}

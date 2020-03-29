@@ -1,0 +1,64 @@
+#nav {
+  font-family: 'Permanent Marker', cursive;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #0B2D47;
+  position: fixed;
+  top: 0;
+}
+
+#nav ul {
+  width: 100%;
+  padding: 0 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+}
+
+#nav ul li {
+  padding: 0 1rem 0 0;
+}
+
+#nav ul li a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #AABAB0;
+}
+
+#nav ul li a:hover {
+  color: #F6E3D8;
+}
+
+@media (max-width: 800px) {
+  #nav ul li a {
+    font-size: 1rem;
+  }
+}
+
+#nav ul #logout {
+  margin-left: auto;
+}
+
+#nav ul #logout button {
+  font-family: unset;
+  font-size: 1.2rem;
+  color: #AABAB0;
+  background-color: #0B2D47;
+  border: none;
+}
+
+#nav ul #logout button:hover {
+  color: #F6E3D8;
+}
+/*# sourceMappingURL=nav.css.map */

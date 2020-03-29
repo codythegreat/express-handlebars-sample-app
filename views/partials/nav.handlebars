@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="css/nav.css">
+<div id="nav">
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Posts</a></li>
+        <li><a href="">Contact</a></li>
+        {{#if isAuth}}
+        <li id="logout"><form action="/logout?_method=DELETE" method="POST">
+            <button type="submit">Log Out</button>
+        </form></li>
+        {{/if}}
+    </ul>
+</div>
